@@ -51,24 +51,25 @@ const Projects = () => {
         {projects.map((project, index) => (
           <Card 
             key={index} 
-            className={`border-primary/20 hover:border-primary/40 transition-all duration-300 group ${
-              project.featured ? 'lg:col-span-1 shadow-glow-primary' : ''
+            className={`border-primary/20 hover:border-primary/60 transition-all duration-500 group bg-gradient-card hover:bg-gradient-to-br hover:from-secondary/20 hover:to-primary/5 hover:scale-[1.02] hover:shadow-2xl animate-scale-in ${
+              project.featured ? 'lg:col-span-1 shadow-glow-primary hover:shadow-glow-cyan' : 'hover:shadow-glow-accent'
             }`}
+            style={{animationDelay: `${index * 0.2}s`}}
           >
-            <CardHeader>
+            <CardHeader className="pb-4">
               <div className="flex items-start justify-between">
-                <CardTitle className="text-2xl text-primary group-hover:text-accent transition-colors">
+                <CardTitle className="text-2xl text-primary group-hover:text-accent transition-colors duration-300 group-hover:animate-glow-pulse">
                   {project.title}
                 </CardTitle>
                 {project.featured && (
-                  <Badge variant="outline" className="border-accent text-accent">
+                  <Badge variant="outline" className="border-accent text-accent bg-accent/10 group-hover:bg-accent/20 transition-colors duration-300">
                     Featured
                   </Badge>
                 )}
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
+              <p className="text-muted-foreground mb-6 leading-relaxed group-hover:text-foreground/90 transition-colors duration-300">
                 {project.description}
               </p>
               
@@ -77,7 +78,7 @@ const Projects = () => {
                   <Badge 
                     key={tagIndex} 
                     variant="secondary" 
-                    className="bg-secondary/50 text-foreground border border-primary/20"
+                    className="bg-secondary/60 text-foreground border border-primary/20 hover:border-accent/50 hover:bg-accent/10 hover:scale-105 transition-all duration-300 cursor-default"
                   >
                     {tag}
                   </Badge>
@@ -85,10 +86,10 @@ const Projects = () => {
               </div>
               
               <div className="flex gap-3">
-                <Button size="sm" className="shadow-glow-accent">
+                <Button size="sm" className="shadow-glow-accent hover:shadow-glow-orange hover:scale-105 transition-all duration-300">
                   Live Demo
                 </Button>
-                <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:scale-105 hover:shadow-glow-primary transition-all duration-300">
                   GitHub
                 </Button>
               </div>

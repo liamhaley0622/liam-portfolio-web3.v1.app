@@ -18,16 +18,16 @@ All colors MUST be HSL.
     --popover: 240 10% 5.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 263 70% 50.4%;
+    --primary: 270 100% 60%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 3.7% 15.9%;
+    --secondary: 240 20% 18%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 240 20% 18%;
+    --muted-foreground: 240 15% 70%;
 
-    --accent: 142 86% 28.5%;
+    --accent: 120 100% 40%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -39,15 +39,20 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom Web3 Colors */
-    --crypto-purple: 263 70% 50.4%;
-    --crypto-cyan: 188 94% 43%;
-    --crypto-green: 142 86% 28.5%;
-    --crypto-glow: 263 70% 50.4%;
-    --gradient-primary: linear-gradient(135deg, hsl(263 70% 50.4%), hsl(188 94% 43%));
-    --gradient-hero: linear-gradient(180deg, hsl(240 10% 3.9%), hsl(240 10% 6%));
-    --glow-primary: 0 0 40px hsl(263 70% 50.4% / 0.3);
-    --glow-accent: 0 0 20px hsl(142 86% 28.5% / 0.5);
+    /* Custom Web3 Colors - More Vibrant */
+    --crypto-purple: 270 100% 60%;
+    --crypto-cyan: 180 100% 50%;
+    --crypto-green: 120 100% 40%;
+    --crypto-orange: 30 100% 60%;
+    --crypto-pink: 320 100% 70%;
+    --crypto-glow: 270 100% 60%;
+    --gradient-primary: linear-gradient(135deg, hsl(270 100% 60%), hsl(180 100% 50%), hsl(320 100% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(270 50% 10%), hsl(180 30% 8%));
+    --gradient-card: linear-gradient(145deg, hsl(240 10% 5.9%), hsl(270 20% 8%));
+    --glow-primary: 0 0 60px hsl(270 100% 60% / 0.4);
+    --glow-accent: 0 0 40px hsl(120 100% 40% / 0.6);
+    --glow-cyan: 0 0 30px hsl(180 100% 50% / 0.5);
+    --glow-orange: 0 0 25px hsl(30 100% 60% / 0.4);
 
     --sidebar-background: 240 10% 5.9%;
     --sidebar-foreground: 0 0% 98%;
