@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-bg.jpg";
 import TimeZones from "./TimeZones";
@@ -22,11 +23,6 @@ const Hero = () => {
         }}
       />
       
-      {/* Time Zones positioned at edges of Hero */}
-      <div className="absolute top-8 left-0 right-0 z-20">
-        <TimeZones />
-      </div>
-      
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-slide-up">
         <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent animate-glow-pulse">
           BlockForge
@@ -47,6 +43,12 @@ const Hero = () => {
           </Button>
         </div>
       </div>
+      
+      {/* Time Zones positioned at bottom edges of Hero */}
+      <div className="absolute bottom-8 left-0 right-0 z-20">
+        <TimeZones />
+      </div>
+      
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
           <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
