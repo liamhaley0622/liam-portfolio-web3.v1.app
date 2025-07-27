@@ -22,7 +22,10 @@ const Hero = () => {
         }}
       />
       
-      <TimeZones />
+      {/* Time Zones positioned at edges of Hero */}
+      <div className="absolute top-8 left-0 right-0 z-20">
+        <TimeZones />
+      </div>
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-slide-up">
         <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent animate-glow-pulse">
