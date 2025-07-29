@@ -6,8 +6,8 @@ const TimeZones = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [visitorTimeZone, setVisitorTimeZone] = useState("UTC");
 
-  // My time zone (you can change this to your actual time zone)
-  const myTimeZone = "America/New_York"; // Change to your time zone
+  // My time zone (Hong Kong)
+  const myTimeZone = "Asia/Hong_Kong";
 
   useEffect(() => {
     // Get visitor's time zone
@@ -43,7 +43,7 @@ const TimeZones = () => {
       {/* Visitor's Time Zone */}
       <div className="text-left animate-slide-up" style={{animationDelay: '0.8s'}}>
         <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-lg p-4 shadow-glow-cyan">
-          <p className="text-xs text-muted-foreground mb-1">Your Time</p>
+          <p className="text-xs text-muted-foreground mb-1">Visitor time</p>
           <p className="text-crypto-cyan font-mono text-lg font-bold">
             {formatTime(visitorTimeZone)}
           </p>
