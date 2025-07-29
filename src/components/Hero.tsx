@@ -24,10 +24,10 @@ const Hero = () => {
       />
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-slide-up">
-        <h1 className="mb-6 animate-glow-pulse text-foreground" style={{fontSize: '40px', fontWeight: 500}}>
+        <h1 className="mb-0 animate-glow-pulse text-foreground" style={{fontSize: '40px', fontWeight: 500}}>
           Liam Haley
         </h1>
-        <h2 className="mb-4 animate-slide-up bg-gradient-primary bg-clip-text text-transparent" style={{animationDelay: '0.2s', fontSize: '50px'}}>
+        <h2 className="mb-4 animate-slide-up bg-gradient-primary bg-clip-text text-transparent" style={{animationDelay: '0.2s', fontSize: '50px', lineHeight: '55px'}}>
           Blockchain Developer & Web3 Architect
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-up" style={{animationDelay: '0.4s'}}>
