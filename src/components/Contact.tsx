@@ -29,17 +29,27 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground">Email</h4>
-                <p className="text-muted-foreground">hello@blockforge.dev</p>
+                <p className="text-muted-foreground">liamhaley960622@gmail.com</p>
               </div>
             </div>
             
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
                 <span className="text-primary text-xl">💼</span>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground">LinkedIn</h4>
                 <p className="text-muted-foreground">linkedin.com/in/blockforge</p>
+              </div>
+            </div> */}
+            
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                <span className="text-primary text-xl">🛸</span>
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground">Telegram</h4>
+                <p className="text-muted-foreground">@liamhaley960622</p>
               </div>
             </div>
             
@@ -49,7 +59,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground">GitHub</h4>
-                <p className="text-muted-foreground">github.com/blockforge</p>
+                <p className="text-muted-foreground">github.com/liamhaely-dev</p>
               </div>
             </div>
           </div>
