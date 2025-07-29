@@ -25,7 +25,7 @@ const Hero = () => {
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-slide-up">
         <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent animate-glow-pulse">
-          BlockForge
+          Liam Haley
         </h1>
         <h2 className="text-2xl md:text-3xl text-muted-foreground mb-4 animate-slide-up" style={{animationDelay: '0.2s'}}>
           Blockchain Developer & Web3 Architect

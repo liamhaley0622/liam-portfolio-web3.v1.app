@@ -6,7 +6,7 @@ const About = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">About Me</h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Passionate blockchain developer with expertise in creating innovative decentralized solutions
+          I'm a passionate blockchain developer with five years of experience creating innovative and approachable decentralized solutions.
         </p>
       </div>
       
